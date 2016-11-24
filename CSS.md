@@ -36,7 +36,7 @@ Znak `-` to separator przestrzeni nazw.
 # 4. Lokalizacja w plikach zrodlowych
 
 css/btn.css
-css/calendar-form.css lub css/calendar/form.css, moze programista decyduje
+css/calendar-form.css lub css/calendar/form.css
 
 cos jak psr4, moga byc w roznych folderach przy jakies modulowosci i komponentach
   
@@ -50,7 +50,7 @@ cos jak psr4, moga byc w roznych folderach przy jakies modulowosci i komponentac
 # 6. Dodakowy podzial ?
 
 - `l` - layout, `layout`, `t`, `tpl` - opis siatki, odstepow np. `form-tpl-footer`
-- `s` - stan, `is`, `has`, `state` np.
+- `s` - stan, `is`, `has`, `state` np. `.form-input.form-has-error`
 
 # 7. Minusy
 
@@ -63,4 +63,4 @@ cos jak psr4, moga byc w roznych folderach przy jakies modulowosci i komponentac
 # 8. Pytania, nierozwiazane
 
 - Media query?
-
+- do osiagniecia celow punkt 6 nie jest potrzebny
