@@ -1,10 +1,11 @@
-1. Cele:
+# 1. Cele
+
  - skalowalnosc, modulowosc
  - szybki ogar przez nowa osobe przez brak skomplikowanych zaleznosci
  - latwosc doklejenia i przebudowy komponentu  
 
 
-2. Nazwa klasy
+# 2. Nazwa klasy
 
 Klasa ma format: `<NamespaceName>(-<SubNamespaceNames>)*-<ClassName>`
 
@@ -15,7 +16,7 @@ Kazda klasa musi posiadac przynajmniej jeden namespace.
 Znak `-` to separator przestrzeni nazw.
 
 
-3. Selektory
+# 3. Selektory
 
 Dozwolne:
 - wedlug klasy np. `.btn-primary`
@@ -32,28 +33,26 @@ Niedozwolone:
 - ze znakime `>`, `+` lub `~` - wprowadza logike ustawienia elementow w strukturze dom, przeszkadza przy modyfikacji struktury DOM
 - zaleznosci pomiedzy przestrzeniami  `.form-footer .btn-secondary {  ...  }` 
 
-4. Lokalizacja w plikach zrodlowych
+# 4. Lokalizacja w plikach zrodlowych
 
-4. 1. cos jak psr4, moga byc w roznych folderach przy jakies modulowosci i komponentach
-    css/btn.css
-    css/calendar-form.css lub css/calendar/form.css - nie wiem
+css/btn.css
+css/calendar-form.css lub css/calendar/form.css, moze programista decyduje
 
-5. Zarezerwowane namespacy pierwszego stopnia
+cos jak psr4, moga byc w roznych folderach przy jakies modulowosci i komponentach
+  
+# 5. Zarezerwowane namespacy pierwszego stopnia
 
 - `default` -  zarezerowany dla resetow i defaultowych styli dla elementow, w sensie plik przy odwzo
 - `js` - nie wystepuje w cssie,  sluzy do lapania elementow przez javascript
   format: `js-<NamespaceName>(-<SubNamespaceNames>)*-<ClassName>`
   namespace powiazany  
 
-
-6. Dodakowy podzial ?
+# 6. Dodakowy podzial ?
 
 - `l` - layout, `layout`, `t`, `tpl` - opis siatki, odstepow np. `form-tpl-footer`
 - `s` - stan, `is`, `has`, `state` np.
 
-
-
-7. Minusy
+# 7. Minusy
 
 - brak wykorzystnia wszystkich mozliwosc css np. `>`, `+`, `~`
 - duzo kodu css
@@ -61,7 +60,7 @@ Niedozwolone:
 - brak inteligentnej abstrakcji np. `div:nth-of-type(3) ul:last-child li:nth-of-type(odd) * { font-weight:bold }`
 - selektory sa glupio proste
  
-8. Pytania, nierozwiazane
+# 8. Pytania, nierozwiazane
 
 - Media query?
 
