@@ -18,7 +18,7 @@ Znak `-` to separator przestrzeni nazw.
 
 # 3. Selektory
 
-Dozwolne:
+## Dozwolne:
 - wedlug klasy np. `.btn-primary`
 - prosta zaleznosc istnienia w innej klasie w tej samej przestrzeni np. `.btn-bar .btn-primary { display:inline-block; }`
 - `,` odzielenie, zero logiki, grupuje tylko zestawy wlasnosci `.btn-primary, .btn-secondary { ...  }` 
@@ -27,7 +27,7 @@ Dozwolne:
 - `:before` jak najmniej? 
 - koniunkcja klas tylko ze stanem np. `.form-input.form-has-error`
 
-Niedozwolone:
+## Niedozwolone:
 - wedlug id, np. `#btn-primary`
 - wedlug znacznika html, np. `a.btn-primary`, zmieniamy na <button> trzeba selektor zmieniac
 - ze znakime `>`, `+` lub `~` - wprowadza logike ustawienia elementow w strukturze dom, przeszkadza przy modyfikacji struktury DOM
