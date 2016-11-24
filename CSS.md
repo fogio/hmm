@@ -52,7 +52,7 @@ cos jak psr4, moga byc w roznych folderach przy jakies modulowosci i komponentac
 - `l` - layout, `layout`, `t`, `tpl` - opis siatki, odstepow np. `form-tpl-footer`
 - `s` - stan, `is`, `has`, `state` np. `.form-input.form-has-error`
 
-# 7. Minusy
+# 7. +/-
 
 - brak wykorzystnia wszystkich mozliwosc css np. `>`, `+`, `~`
 - duzo kodu css
