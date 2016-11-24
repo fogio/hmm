@@ -33,7 +33,7 @@ Znak `-` to separator przestrzeni nazw.
 - ze znakime `>`, `+` lub `~` - wprowadza logike ustawienia elementow w strukturze dom, przeszkadza przy modyfikacji struktury DOM
 - zaleznosci pomiedzy przestrzeniami  `.form-footer .btn-secondary {  ...  }` 
 
-# 4. Lokalizacja w plikach zrodlowych
+# 4. Lokalizacja w plikach zrodlowych 
 
 css/btn.css
 css/calendar-form.css lub css/calendar/form.css
